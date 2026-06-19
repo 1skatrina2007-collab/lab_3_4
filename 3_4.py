@@ -182,8 +182,8 @@ if __name__ == "__main__":
         players = load_players(filename)
         # print(players)
 
-        group_data = group_by(players, field="имя")
-        # group_data = group_by(players, field="амплуа")
+        # group_data = group_by(players, field="имя")
+        group_data = group_by(players, field="амплуа")
         # group_data = group_by(players, field="рука")
         # group_data = group_by(players, field="год_рождения")
         # group_data = group_by(players, field="клуб")
